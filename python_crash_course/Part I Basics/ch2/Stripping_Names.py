@@ -1,0 +1,10 @@
+name ='\tsamar\telsayed\t\n'
+print(name)
+print(name.lstrip())
+print("--------------------------------------------------------")
+print(name)
+print(name.rstrip())
+print("--------------------------------------------------------")
+print(name)
+print(name.strip())
+print("--------------------------------------------------------")

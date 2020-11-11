@@ -1,0 +1,17 @@
+GuestList=['samar','talia','yassin','mogeth']
+print(f'hi {GuestList[0].title()},i want to tell you that i found big table and l well invet more freind  ,have nice night')
+print(f'hi {GuestList[1].title()},i want to tell you that i found big table and l well invet more freind have nice night')
+print(f'hi {GuestList[2].title()},i want to tell you that i found big table and l well invet more freind have nice night')
+print(f'hi {GuestList[3].title()},i want to tell you that i found big table and l well invet more freind have nice night')
+GuestList.insert(0,'mom')
+GuestList.insert(int(len(GuestList)/2 +1),'dad')
+GuestList.append('uncle')
+print(GuestList)
+
+print(f'welcome {GuestList[0].title()}, i want to invite you to my dinner have nice night')
+print(f'welcome {GuestList[1].title()}, i want to invite you to my dinner have nice night')
+print(f'welcome {GuestList[2].title()}, i want to invite you to my dinner have nice night')
+print(f'welcome {GuestList[3].title()}, i want to invite you to my dinner have nice night')
+print(f'welcome {GuestList[4].title()}, i want to invite you to my dinner have nice night')
+print(f'welcome {GuestList[5].title()}, i want to invite you to my dinner have nice night')
+print(f'welcome {GuestList[6].title()}, i want to invite you to my dinner have nice night')
